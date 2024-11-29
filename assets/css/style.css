@@ -1,0 +1,121 @@
+ /* Reset and Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: white;
+        }
+
+        body {
+            font-family: "Roboto", sans-serif;
+            
+            background-image: url('/assets/images/istockphoto-1172943967-612x612.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        /* Navbar Styles */
+        .navbar_item {
+            font-size: 14px;
+            padding: 10px;
+            color: white;
+            cursor: pointer;
+        }
+
+        .navbar_item svg {
+            margin-left: 5px;
+        }
+
+        /* Button Styles */
+        .commanbtn button {
+            width: 170px;
+            padding: 10px;
+            font-size: 16px;
+            font-weight: 500;
+            border: none;
+            border-radius: 3px;
+            background-color: #ed6032;
+            color: white;
+            transition: transform 0.3s ease-in;
+        }
+
+        .commanbtn button:hover {
+            transform: scale(1.1);
+        }
+
+        /* Hero Section */
+        .hero_title h1 {
+            font-weight: 900;
+            margin-bottom: 20px;
+            margin-top: 40px;
+        }
+
+        .hero_subtitle p {
+            line-height: 30px;
+            margin-bottom: 50px;
+        }
+
+        @media (max-width: 992px) {
+            /* Hide Navbar Items in Main Navbar */
+            #right_Navbar {
+                display: none;
+            }
+
+            #left_Navbar svg {
+                display: block;
+            }
+
+            #left_Navbar {
+                display: flex;
+            }
+        }
+
+        /* Sliding Panel Styles */
+        #slidingPanel {
+            position: fixed;
+            top: 0;
+            left: -100%;
+            width: 40%;
+            height: 100%;
+            background-color: #051a2f;
+            z-index: 1000;
+            transition: left 0.5s ease-in-out;
+        }
+
+        #closePanel {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: none;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            font-weight: bold;
+            color: white;
+        }
+
+ 
+        #panelNavItems {
+            color: white;
+        }
+
+        #panelNavItems .navbar_item {
+            font-size: 18px;
+            font-weight: 500;
+            cursor: pointer;
+            padding: 10px 0;
+            border-bottom: 1px solid #ffffff33;
+            transition: color 0.5s ease-in-out;
+        }
+
+        #panelNavItems .navbar_item:hover {
+            color: #ed6032;
+        }
+
+        .navbar_item svg {
+            transform: rotate(-90deg);
+            position: absolute;
+            top: 9px;
+            fill: white;
+        }
