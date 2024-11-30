@@ -1,5 +1,7 @@
 # Vairav Technology Web Page Clone
 
+![Capture](https://github.com/user-attachments/assets/3d3c56fa-5e81-424c-b951-602f065b09c3)
+
 ## Description
 This is a responsive Web Page Clone of Vairav Technology featuring a navbar, hero section, and sliding panel.
 
