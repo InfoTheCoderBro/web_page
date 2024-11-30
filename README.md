@@ -20,17 +20,3 @@ This is a responsive Web Page Clone of Vairav Technology featuring a navbar, her
 - Clone the repository.
 - Open `index.html` in a browser.
 
-Vairav_Technology/
-│
-├── assets/
-│   ├── css/
-│   │   └── style.css
-│   ├── images/
-│   │   ├── Vairav_in_white_1_1_2e4f752762.svg
-│   │   └── fevicon.svg
-│   └── js/
-│       └── script.js
-├── index.html
-├── README.md
-├── .gitignore
-
